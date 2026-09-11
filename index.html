@@ -1,314 +1,567 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
+
+    <!-- =========================
+         INFORMATIONS DU SITE
+         ========================= -->
+
     <meta charset="UTF-8">
+
     <meta
         name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
+
     <meta
         name="description"
-        content="SKÖLL — Streetwear et vêtements inspirés du sport."
+        content="SKÖLL — Marque de vêtements streetwear et sportswear."
     >
-    <meta
-        name="keywords"
-        content="SKÖLL, vêtements, streetwear, sportswear, mode"
-    >
+
     <title>SKÖLL — Official Store</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
+
 <body>
-    <!-- ========================= -->
-    <!-- HEADER / NAVIGATION -->
-    <!-- ========================= -->
+
+
+    <!-- =========================
+         HEADER
+         ========================= -->
+
     <header>
+
         <nav>
+
+            <!-- LOGO -->
+
             <a href="#accueil">
                 SKÖLL
             </a>
+
+
+            <!-- MENU -->
+
             <ul>
+
                 <li>
                     <a href="#accueil">
                         Accueil
                     </a>
                 </li>
+
                 <li>
                     <a href="#collection">
                         Collection
                     </a>
                 </li>
+
                 <li>
                     <a href="#apropos">
                         À propos
                     </a>
                 </li>
+
+                <li>
+                    <a href="#galerie">
+                        Galerie
+                    </a>
+                </li>
+
                 <li>
                     <a href="#contact">
                         Contact
                     </a>
                 </li>
+
                 <li>
                     <a href="#panier">
                         🛒 Panier
                     </a>
                 </li>
+
             </ul>
+
         </nav>
+
     </header>
-    <!-- ========================= -->
-    <!-- PAGE PRINCIPALE -->
-    <!-- ========================= -->
+
+
+    <!-- =========================
+         CONTENU PRINCIPAL
+         ========================= -->
+
     <main>
-        <!-- ========================= -->
-        <!-- ACCUEIL -->
-        <!-- ========================= -->
+
+
+        <!-- =========================
+             ACCUEIL
+             ========================= -->
+
         <section id="accueil">
+
             <p>
                 SKÖLL — OFFICIAL STORE
             </p>
+
+
             <h1>
                 WEAR YOUR POWER.
             </h1>
+
+
+            <h2>
+                Streetwear. Performance. Attitude.
+            </h2>
+
+
             <p>
                 Découvrez l'univers SKÖLL.
-                Une marque pensée pour celles et ceux
-                qui veulent se dépasser.
+                Des vêtements pensés pour celles et ceux
+                qui veulent repousser leurs limites.
             </p>
-            <a href="#collection">
-                Découvrir la collection
-            </a>
+
+
+            <div>
+
+                <a href="#collection">
+                    Découvrir la collection
+                </a>
+
+                <a href="#apropos">
+                    Découvrir SKÖLL
+                </a>
+
+            </div>
+
         </section>
-        <!-- ========================= -->
-        <!-- COLLECTION -->
-        <!-- ========================= -->
+
+
+
+        <!-- =========================
+             COLLECTION
+             ========================= -->
+
         <section id="collection">
+
             <h2>
-                Notre collection
+                La collection
             </h2>
+
+
             <p>
-                Découvrez les dernières pièces SKÖLL.
+                Découvrez nos dernières pièces.
             </p>
-            <!-- PRODUIT 1 -->
+
+
+            <!-- =====================
+                 PRODUIT 1
+                 ===================== -->
+
             <article>
+
                 <img
                     src="images/tshirt-skoll.jpg"
                     alt="T-shirt SKÖLL"
+                    loading="lazy"
                 >
+
+
                 <h3>
                     SKÖLL T-Shirt
                 </h3>
+
+
                 <p>
-                    T-shirt SKÖLL officiel.
+                    T-shirt officiel SKÖLL.
+                    Coupe moderne et confortable.
                 </p>
+
+
                 <p>
                     29,99 €
                 </p>
+
+
                 <label for="taille-tshirt">
-                    Taille :
+                    Taille
                 </label>
+
+
                 <select id="taille-tshirt">
-                    <option value="s">
+
+                    <option value="S">
                         S
                     </option>
-                    <option value="m">
+
+                    <option value="M">
                         M
                     </option>
-                    <option value="l">
+
+                    <option value="L">
                         L
                     </option>
-                    <option value="xl">
+
+                    <option value="XL">
                         XL
                     </option>
+
                 </select>
-                <button type="button">
+
+
+                <button
+                    type="button"
+                    class="add-to-cart"
+                    data-product="SKÖLL T-Shirt"
+                    data-price="29.99"
+                >
                     Ajouter au panier
                 </button>
+
             </article>
-            <!-- PRODUIT 2 -->
+
+
+
+            <!-- =====================
+                 PRODUIT 2
+                 ===================== -->
+
             <article>
+
                 <img
                     src="images/sweat-skoll.jpg"
                     alt="Sweat SKÖLL"
+                    loading="lazy"
                 >
+
+
                 <h3>
                     SKÖLL Hoodie
                 </h3>
+
+
                 <p>
-                    Hoodie SKÖLL officiel.
+                    Hoodie SKÖLL premium.
+                    Pensé pour le confort et le style.
                 </p>
+
+
                 <p>
                     59,99 €
                 </p>
+
+
                 <label for="taille-hoodie">
-                    Taille :
+                    Taille
                 </label>
+
+
                 <select id="taille-hoodie">
-                    <option value="s">
+
+                    <option value="S">
                         S
                     </option>
-                    <option value="m">
+
+                    <option value="M">
                         M
                     </option>
-                    <option value="l">
+
+                    <option value="L">
                         L
                     </option>
-                    <option value="xl">
+
+                    <option value="XL">
                         XL
                     </option>
+
                 </select>
-                <button type="button">
+
+
+                <button
+                    type="button"
+                    class="add-to-cart"
+                    data-product="SKÖLL Hoodie"
+                    data-price="59.99"
+                >
                     Ajouter au panier
                 </button>
+
             </article>
-            <!-- PRODUIT 3 -->
+
+
+
+            <!-- =====================
+                 PRODUIT 3
+                 ===================== -->
+
             <article>
+
                 <img
                     src="images/jogging-skoll.jpg"
                     alt="Jogging SKÖLL"
+                    loading="lazy"
                 >
+
+
                 <h3>
                     SKÖLL Jogger
                 </h3>
+
+
                 <p>
-                    Jogging SKÖLL officiel.
+                    Jogging SKÖLL confortable
+                    pour un style sportif.
                 </p>
+
+
                 <p>
                     49,99 €
                 </p>
+
+
                 <label for="taille-jogger">
-                    Taille :
+                    Taille
                 </label>
+
+
                 <select id="taille-jogger">
-                    <option value="s">
+
+                    <option value="S">
                         S
                     </option>
-                    <option value="m">
+
+                    <option value="M">
                         M
                     </option>
-                    <option value="l">
+
+                    <option value="L">
                         L
                     </option>
-                    <option value="xl">
+
+                    <option value="XL">
                         XL
                     </option>
+
                 </select>
-                <button type="button">
+
+
+                <button
+                    type="button"
+                    class="add-to-cart"
+                    data-product="SKÖLL Jogger"
+                    data-price="49.99"
+                >
                     Ajouter au panier
                 </button>
+
             </article>
+
         </section>
-        <!-- ========================= -->
-        <!-- À PROPOS -->
-        <!-- ========================= -->
+
+
+
+        <!-- =========================
+             À PROPOS
+             ========================= -->
+
         <section id="apropos">
+
             <h2>
                 L'histoire de SKÖLL
             </h2>
+
+
             <p>
                 SKÖLL est une marque de vêtements
                 inspirée par le sport, la détermination
-                et l'envie de progresser.
+                et la volonté de progresser.
             </p>
+
+
             <p>
-                Chaque pièce représente un état d'esprit :
-                travailler, progresser et ne jamais abandonner.
+                Notre vision est simple :
+                créer des vêtements qui représentent
+                un état d'esprit.
             </p>
+
+
+            <p>
+                Travail.
+                Discipline.
+                Progression.
+                Détermination.
+            </p>
+
         </section>
-        <!-- ========================= -->
-        <!-- GALERIE -->
-        <!-- ========================= -->
+
+
+
+        <!-- =========================
+             GALERIE
+             ========================= -->
+
         <section id="galerie">
+
             <h2>
-                SKÖLL — L'univers
+                L'univers SKÖLL
             </h2>
+
+
             <figure>
+
                 <img
                     src="images/skoll-01.jpg"
                     alt="Collection SKÖLL"
+                    loading="lazy"
                 >
+
                 <figcaption>
                     SKÖLL Collection
                 </figcaption>
+
             </figure>
+
+
             <figure>
+
                 <img
                     src="images/skoll-02.jpg"
                     alt="Vêtement SKÖLL porté"
+                    loading="lazy"
                 >
+
                 <figcaption>
                     SKÖLL Lifestyle
                 </figcaption>
+
             </figure>
+
+
             <figure>
+
                 <img
                     src="images/skoll-03.jpg"
                     alt="Collection sportswear SKÖLL"
+                    loading="lazy"
                 >
+
                 <figcaption>
                     SKÖLL Sportswear
                 </figcaption>
+
             </figure>
+
         </section>
-        <!-- ========================= -->
-        <!-- PANIER -->
-        <!-- ========================= -->
+
+
+
+        <!-- =========================
+             PANIER
+             ========================= -->
+
         <section id="panier">
+
             <h2>
                 Votre panier
             </h2>
-            <p>
-                Votre panier est actuellement vide.
-            </p>
+
+
             <div id="contenu-panier">
-                <!--
-                    Le panier sera rendu interactif
-                    avec JavaScript dans une prochaine étape.
-                -->
+
+                <p id="panier-vide">
+                    Votre panier est actuellement vide.
+                </p>
+
             </div>
+
+
             <p>
                 Total :
+
                 <strong id="total-panier">
                     0,00 €
                 </strong>
+
             </p>
-            <button type="button">
+
+
+            <button
+                type="button"
+                id="checkout-button"
+            >
                 Passer commande
             </button>
+
         </section>
-        <!-- ========================= -->
-        <!-- CONTACT -->
-        <!-- ========================= -->
+
+
+
+        <!-- =========================
+             CONTACT
+             ========================= -->
+
         <section id="contact">
+
             <h2>
-                Contact
+                Contactez SKÖLL
             </h2>
+
+
             <p>
-                Une question concernant une commande ?
-                Contactez-nous.
+                Une question concernant un produit
+                ou une commande ?
             </p>
-            <form>
+
+
+            <form
+                id="contact-form"
+                action="#"
+                method="post"
+            >
+
+
                 <label for="nom">
                     Nom
                 </label>
+
+
                 <input
                     type="text"
                     id="nom"
                     name="nom"
                     placeholder="Votre nom"
+                    autocomplete="name"
                     required
                 >
+
+
+
                 <label for="email">
                     Adresse email
                 </label>
+
+
                 <input
                     type="email"
                     id="email"
                     name="email"
                     placeholder="votre@email.com"
+                    autocomplete="email"
                     required
                 >
+
+
+
                 <label for="message">
                     Message
                 </label>
+
+
                 <textarea
                     id="message"
                     name="message"
@@ -316,70 +569,173 @@
                     placeholder="Votre message..."
                     required
                 ></textarea>
-                <button type="submit">
-                    Envoyer
+
+
+
+                <button
+                    type="submit"
+                >
+                    Envoyer le message
                 </button>
+
+
             </form>
+
         </section>
+
     </main>
-    <!-- ========================= -->
-    <!-- FOOTER -->
-    <!-- ========================= -->
+
+
+
+    <!-- =========================
+         FOOTER
+         ========================= -->
+
     <footer>
+
+
         <h2>
             SKÖLL
         </h2>
+
+
         <p>
-            Wear your power.
+            WEAR YOUR POWER.
         </p>
-        <!-- RÉSEAUX SOCIAUX -->
+
+
+
+        <!-- =====================
+             RÉSEAUX SOCIAUX
+             ===================== -->
+
         <nav>
-            <a href="#">
+
+            <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 Instagram
             </a>
-            <a href="#">
+
+
+            <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 TikTok
             </a>
-            <a href="#">
+
+
+            <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
                 YouTube
             </a>
+
         </nav>
-        <!-- LIENS -->
+
+
+
+        <!-- =====================
+             LIENS DU SITE
+             ===================== -->
+
         <nav>
+
             <a href="#accueil">
                 Accueil
             </a>
+
+
             <a href="#collection">
                 Collection
             </a>
+
+
+            <a href="#apropos">
+                À propos
+            </a>
+
+
             <a href="#contact">
                 Contact
             </a>
+
+
             <a href="#">
                 Conditions générales de vente
             </a>
+
+
             <a href="#">
                 Politique de confidentialité
             </a>
+
         </nav>
-        <!-- COMPTEUR DE VISITEURS -->
+
+
+
+        <!-- =========================
+             COMPTEUR DE VISITEURS
+             ========================= -->
+
         <section id="visiteurs">
+
             <p>
+
                 👁️
+
                 <span id="nombre-visiteurs">
                     —
                 </span>
-                personnes sont actuellement sur le site.
+
+                personnes sont actuellement
+                sur le site.
+
             </p>
-            <!--
-                Le compteur réel sera connecté
-                à une base de données / service externe.
-            -->
+
         </section>
+
+
+
+        <!-- =====================
+             COPYRIGHT
+             ===================== -->
+
         <p>
             © 2026 SKÖLL.
             Tous droits réservés.
         </p>
+
+
     </footer>
+
+
+
+    <!-- =========================
+         JAVASCRIPT
+         ========================= -->
+
+    <!--
+        Le JavaScript sera ajouté
+        dans le prochain épisode.
+
+        Il permettra notamment de gérer :
+        - le panier
+        - les quantités
+        - le total
+        - le compteur
+        - les interactions
+        - le système de commande
+    -->
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
